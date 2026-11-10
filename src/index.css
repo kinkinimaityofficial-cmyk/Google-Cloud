@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #120c08;
+    color: #f3ebd4;
+  }
+}
+
+.font-name {
+  font-family: 'Cinzel Decorative', 'MedievalSharp', serif;
+}
+
+.font-medieval {
+  font-family: 'MedievalSharp', cursive, serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-fantasy {
+  font-family: 'Cinzel', serif;
+}
+
+/* Ancient Alchemist's Workbench Tabletop & Textures */
+.workbench-bg {
+  background-color: #110b07;
+  background-image: 
+    radial-gradient(ellipse 90% 60% at 50% 10%, rgba(217, 119, 6, 0.12), transparent 70%),
+    radial-gradient(circle at 20% 80%, rgba(180, 83, 9, 0.08), transparent 50%),
+    radial-gradient(circle at 80% 90%, rgba(120, 53, 15, 0.09), transparent 50%),
+    repeating-linear-gradient(
+      90deg,
+      rgba(25, 17, 11, 0.6) 0px,
+      rgba(25, 17, 11, 0.6) 120px,
+      rgba(15, 10, 6, 0.9) 121px,
+      rgba(15, 10, 6, 0.9) 123px
+    ),
+    linear-gradient(180deg, #160e09 0%, #100a06 50%, #0a0604 100%);
+  background-attachment: fixed;
+}
+
+/* Stone & Wood Carved Table Border */
+.alchemist-border {
+  border: 1px solid rgba(217, 119, 6, 0.35);
+  box-shadow: 
+    inset 0 0 15px rgba(0, 0, 0, 0.8),
+    0 10px 30px -5px rgba(0, 0, 0, 0.9),
+    0 0 20px rgba(217, 119, 6, 0.1);
+}
+
+/* Aged Parchment Plaque */
+.parchment-sheet {
+  background: 
+    radial-gradient(circle at 50% 20%, rgba(254, 243, 199, 0.04), transparent 60%),
+    linear-gradient(135deg, #241a12 0%, #1e150f 50%, #18100a 100%);
+  border: 1px solid #784c20;
+  box-shadow: 
+    inset 0 0 40px rgba(0, 0, 0, 0.7),
+    0 15px 35px rgba(0, 0, 0, 0.85);
+}
+
+/* Burnished Brass Accents */
+.brass-gradient {
+  background: linear-gradient(135deg, #d4af37 0%, #b8860b 40%, #85591c 80%, #b8860b 100%);
+}
+
+.brass-border {
+  border-color: #9c6c28;
+}
+
+.brass-text {
+  color: #dfb256;
+}
